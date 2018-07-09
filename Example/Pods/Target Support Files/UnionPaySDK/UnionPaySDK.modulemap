@@ -1,0 +1,6 @@
+framework module UnionPaySDK {
+  umbrella header "UnionPaySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UnionPaySDK_Example' do
+  pod 'UnionPaySDK', :path => '../'
+
+  target 'UnionPaySDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
