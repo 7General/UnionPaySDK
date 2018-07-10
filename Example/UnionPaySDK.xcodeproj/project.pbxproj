@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		220A6E8420F45A25009AB34D /* GCDSafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220A6E8320F45A25009AB34D /* GCDSafeViewController.m */; };
 		22440C4220F3552D00FA03A2 /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22440C4120F3552D00FA03A2 /* libPaymentControl.a */; };
 		5F19E9161D02EC826E7ABF4E /* Pods_UnionPaySDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3DE963B7F3DC401F21ECD1 /* Pods_UnionPaySDK_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -39,8 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		220A6E8220F45A25009AB34D /* GCDSafeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDSafeViewController.h; sourceTree = "<group>"; };
-		220A6E8320F45A25009AB34D /* GCDSafeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDSafeViewController.m; sourceTree = "<group>"; };
 		22440C4120F3552D00FA03A2 /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
 		22440C4320F3553600FA03A2 /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
 		43DD285906DC985AC0D9EE9A /* Pods-UnionPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnionPaySDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnionPaySDK_Tests/Pods-UnionPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,8 +145,6 @@
 		6003F593195388D20070C39A /* Example for UnionPaySDK */ = {
 			isa = PBXGroup;
 			children = (
-				220A6E8220F45A25009AB34D /* GCDSafeViewController.h */,
-				220A6E8320F45A25009AB34D /* GCDSafeViewController.m */,
 				22440C4020F3551A00FA03A2 /* UNPaySDK */,
 				6003F59C195388D20070C39A /* ZZGAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZZGAppDelegate.m */,
@@ -379,7 +374,6 @@
 			files = (
 				6003F59E195388D20070C39A /* ZZGAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZZGViewController.m in Sources */,
-				220A6E8420F45A25009AB34D /* GCDSafeViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
