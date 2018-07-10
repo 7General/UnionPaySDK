@@ -7,23 +7,67 @@
 //
 
 #import "ZZGViewController.h"
+#import "UnPaySDK.h"
+
+
+
+
+#define kMode_Development             @"01"
+#define kURL_TN_Normal                @"http://101.231.204.84:8091/sim/getacptn"
+#define kURL_TN_Configure             @"http://101.231.204.84:8091/sim/app.jsp?user=123456789"
 
 @interface ZZGViewController ()
-
+@property (nonatomic, strong) NSString * stnNo;
 @end
 
 @implementation ZZGViewController
 
+static dispatch_group_t history_group = nil;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(50, 100, 250, 100);
+    btn.backgroundColor = [UIColor grayColor];
+    [btn setTitle:@"普通订单，mode=01" forState:0];
+    [btn addTarget:self action:@selector(normalunPayClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    
+    UIButton * btn2 = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn2.frame = CGRectMake(50, 300, 270, 100);
+    btn2.backgroundColor = [UIColor grayColor];
+    [btn2 setTitle:@"配置用户123456789,mode=01" forState:0];
+    [btn2 addTarget:self action:@selector(unPayClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn2];
+    
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (void) normalunPayClick {
+    NSURL *url = [NSURL URLWithString:kURL_TN_Normal];
+    NSURLSession *session = [NSURLSession sharedSession];
+    __weak __typeof(self) weakSelf = self;
+    NSURLSessionDataTask *dataTask = [session dataTaskWithURL:url completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        NSString * stnNo = [[NSMutableString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+        [weakSelf payMenu:stnNo];
+    }];
+    [dataTask resume];
 }
+
+
+-(void)payMenu:(NSString *)stn {
+    pay_dispatch_main_async_safe(^{
+        [[UPPaymentControl defaultControl] startPay:stn fromScheme:@"UPPayDemo" mode:kMode_Development viewController:self];
+    });
+}
+
+
+- (void)unPayClick {
+    
+}
+
 
 @end

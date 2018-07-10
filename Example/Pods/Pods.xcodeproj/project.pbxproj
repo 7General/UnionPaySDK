@@ -7,80 +7,153 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04F3BBE71B24770E40CC66A993AD85D1 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = BB00ADDE9C30E36EB99FA89E831E4590 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		072C6520178F3AD9572F1FEEC44FE3AC /* Pods-UnionPaySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E37FBCDAA6DB2D893A62A941211784 /* Pods-UnionPaySDK_Tests-dummy.m */; };
-		11E26FE1CEB95FD9CF34314FD5095299 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		24EF17CB8BE1216C850D7C78488AAC86 /* Pods-UnionPaySDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A6BFBC30954A8E1E1BF19C69C21169 /* Pods-UnionPaySDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		294ED9A7DD14A69CBB44AFC81D7DB329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		09EC74E4AFC1D5951D1F80094D06969A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
+		0ACBBA158F4635FAE16AB5456ABADCA4 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1C251DFB2D3B0E60259BE56A85C5BA /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11E26FE1CEB95FD9CF34314FD5095299 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
+		15F6265FCE0955CDB4967F7306407D67 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FB33A30129B406EB1BD224B6B630B80 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3345805C0D8E8D0726F7E5981DA61A5F /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E79F20FA67EF326AC8DE380E6118EBF4 /* UIWebView+AFNetworking.m */; };
+		3C9E113B7712442B4BCB59AB7EEC2085 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A821F310F9CBCED06C1D6DEC3103B24 /* AFURLResponseSerialization.m */; };
+		3DDB894364CEC991E61B04E9036D6D54 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0929494D86649284B6A56EAB3F91B303 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F405BB731A641BFE7C0711FBCB5446B /* Pods-UnionPaySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE364DF13C354A6C58F83AA9A3975F4 /* Pods-UnionPaySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5FA96FDC5051BED2CA1BA74DCCADAEF /* UnionPaySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F6F5F9A94F261C73B335E2D076E187B /* UnionPaySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8A3003FF22B9ADC6D7613EED439D9A3 /* UnionPaySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAA85CB36BACB829DE2B94697A933EB /* UnionPaySDK-dummy.m */; };
-		C1249FF42B6959F2A2DE4B362A19FD52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C1D1C038DB1B5FB4AD56EC52B721B242 /* Pods-UnionPaySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7C2C0DC1E33011738DD9190E0F9A0F /* Pods-UnionPaySDK_Example-dummy.m */; };
-		E60DA4E49D0AD2544CDF7E3972EEED19 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E968DCFBBD7E4D8D352056F59712C93 /* ReplaceMe.m */; };
+		4AA21F40697CB42D7D219ACEDE4FBFCF /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6361979267EDE0860632095FC6EA4D87 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA3A9FC9AAD94C226CA975946C9395B /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 940F9DBBD5FB7E51683C5858A06D1B91 /* UIRefreshControl+AFNetworking.m */; };
+		4C321BA8844AA4C44D4416CC6948DF2B /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B111A72E572F236A399CC7F2E7D3E85 /* AFNetworking-dummy.m */; };
+		4C5DA96F7CAC26975EEEBD7450FF214D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C208217BB6EAB64559C0AC437E799C /* AFURLSessionManager.m */; };
+		5BFE1CC79F693B6218B419AE50B2070E /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1D89BEED3766388A77B2FCB9912393 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63BA6FBA10304F4828DE97C0FA63ED9D /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD7A9F5902061F94EEC77455DF6D75F /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6478B0091202F9429D2A61E30BEDA571 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A9374C39A6EFA90AD3F2E64799ECC5 /* Security.framework */; };
+		6595C6295B9EBBF40751A376239681FD /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0F7569C1C4BFC3EF2C9DA3D50CC0B /* UIProgressView+AFNetworking.m */; };
+		6AB8F78680B3470391219F11D51A1DE7 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A23D5B238032195CA6F925D556B9F96 /* UIImageView+AFNetworking.m */; };
+		7099E4035C06D3116DA2586EFE563C0B /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1174ABA877619CC640989D6AC9A07DF1 /* AFAutoPurgingImageCache.m */; };
+		78AC6714960C42CC866222B6D956EDF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64716173FC0305057230E14CDCC7A77 /* CoreGraphics.framework */; };
+		81ABD96C8FA6FF28CFB2A3A78A6EA560 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8A7C0B6179467051ED95E59DB2AF9F /* SystemConfiguration.framework */; };
+		86EA527BA1862E06A8E19E0960C66E7E /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C90CE9B626C1720C9ADB8FF999E47D68 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89637BFFD180A1E05F04DAF0CF4A6540 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FDBCCB266ACFED93E55656FD8A014C /* MobileCoreServices.framework */; };
+		89660277364201418F678C381A2BC1C2 /* Pods-UnionPaySDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A6BFBC30954A8E1E1BF19C69C21169 /* Pods-UnionPaySDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A1EB96C607F92E8AA20676F9A4BC7D9 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CE85E1EB18AE94164507FF5D433CE6 /* UIButton+AFNetworking.m */; };
+		8D9636C74777C684BDF312EE66F8A585 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 353BE42A5F94DADECC35B1DBDA6A1231 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92FEE7989711AFD09208F90BBA273CD1 /* Pods-UnionPaySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7C2C0DC1E33011738DD9190E0F9A0F /* Pods-UnionPaySDK_Example-dummy.m */; };
+		939EF882233B22D0321A70F6DADED11F /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC88013A13A80BA08140FC1D0FC17CAD /* AFHTTPSessionManager.m */; };
+		9898B13B5771AC304E096319E72F8098 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C8AE42D5A69E862E48EC78FF350078 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AC1064802A4D107353A87F2B4A963B0 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D82029FB8774862A89BC6CD31A855F2 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A12A3BC640B690479F345A49C6C48209 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB3C1AE13FE37CFF6F471AF2B1E701D /* AFNetworkReachabilityManager.m */; };
+		A5B069CA1170E03891AC5648DE5CF87D /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FCADC02A41266A8F7ECA471386ABB3 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD868043328B2125E27A5DC14D11958F /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF376080E12057AC937F6E1F0D7CB5D /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADD011E9ABBD96D70AAA32A4B9ACBD02 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F1423F692F2541CFE55253BC467F0025 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B086C8017A694E281B3F30DCCE8FA588 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BDA8426E671B3F1385057205E67201 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B46FE8C00C2CDDE0B4790FFD3DC961A4 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2658E99DDD8EA7B96318F002C7B157B0 /* AFImageDownloader.m */; };
+		C12BAA822391D670C53FF0C2299654AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D2F00E33B5224A2ABFD1744688638A40 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C257BE809D4C4357A8EB7118960E3143 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BE62D258251F0E3CC57836C93584D335 /* UIActivityIndicatorView+AFNetworking.m */; };
+		CA0D37AE5433954573D3E37771CDDBFA /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB2918FE96D6AE88B6CA1AB13D6E730 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E317A1855681A493885D66EE1594F05B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
+		E5CD5C797956697DDCC98A3EAC7E99E3 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF9AB0D2DE5398A86009837A2760BAD /* AFURLRequestSerialization.m */; };
+		EA23726556D213DB485BD1791C7164CF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C446A800F6280C03E64AF14170EC0 /* AFNetworkActivityIndicatorManager.m */; };
+		F1199E40BF416FC1ACA2DDCD7B2E23A1 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AB81F5B5A19D6F63D51E00BB9E746058 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F26CD9A1DF452688BF3C98BBA9090F92 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 05BFBAF94DDF04E8BDBF6323835FB9BC /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F30950E63F3D8D6C07FFB50C5971116E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 559947ACFC2291BE83F8DEC005B7101D /* AFSecurityPolicy.m */; };
+		F54879EEAE223E90AC9674197E6B1ADE /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = CC18ED6BD8558D5E0970879CD6A9291E /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		709AD721738AC6349F0A54E86C161EDE /* PBXContainerItemProxy */ = {
+		198890DFC4480820537E7D0C214B388C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 24C3AEB5949284AF35AD9E5D84E307C2;
-			remoteInfo = UnionPaySDK;
+			remoteGlobalIDString = F4160500DCEA3DA3E93FBA579E88CA0A;
+			remoteInfo = AFNetworking;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008999689D2115C81948A464A4AD23C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		05BFBAF94DDF04E8BDBF6323835FB9BC /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		0929494D86649284B6A56EAB3F91B303 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		09BDA8426E671B3F1385057205E67201 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		0AF376080E12057AC937F6E1F0D7CB5D /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		0C704F6981C8E6BFBF57126E24992220 /* Pods-UnionPaySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnionPaySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0EF0F7569C1C4BFC3EF2C9DA3D50CC0B /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		0FA0216E2649A1B6E351131892040882 /* Pods-UnionPaySDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnionPaySDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		1174ABA877619CC640989D6AC9A07DF1 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		11A71C780B0295DCC7E9E7F5210A9E11 /* Pods-UnionPaySDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnionPaySDK_Example.modulemap"; sourceTree = "<group>"; };
+		12A9374C39A6EFA90AD3F2E64799ECC5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		14D08F7F28CEDCEF2AFC8BBDB71F26FB /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		151E52665D69818985E4A016830BD513 /* UnionPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = UnionPaySDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		163CB723F9C95ECD7EA31D265D3E1109 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17FCADC02A41266A8F7ECA471386ABB3 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		1AB3C1AE13FE37CFF6F471AF2B1E701D /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		2658E99DDD8EA7B96318F002C7B157B0 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		29F0E2CABC8176CEFE008C1B6957F6AE /* Pods-UnionPaySDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnionPaySDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2A23D5B238032195CA6F925D556B9F96 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		2A821F310F9CBCED06C1D6DEC3103B24 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		2E7C2C0DC1E33011738DD9190E0F9A0F /* Pods-UnionPaySDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnionPaySDK_Example-dummy.m"; sourceTree = "<group>"; };
+		2FD6951C3B39398156CC074133DC9ABB /* UPPaymentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPPaymentControl.h; path = UnionPaySDK/Classes/UPPaymentControl.h; sourceTree = "<group>"; };
+		3307E5B110FC9196B319C2604A238EF1 /* Pods_UnionPaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnionPaySDK_Tests.framework; path = "Pods-UnionPaySDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		353BE42A5F94DADECC35B1DBDA6A1231 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		443C446A800F6280C03E64AF14170EC0 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		5074C02D11492001E234DA3F9F7FDC21 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		559947ACFC2291BE83F8DEC005B7101D /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		5A1B3359F90CFEBD6EEBA9A40FFA83F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6915523D4D84317540A11C5D42EAF0E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		694E1554D6167C9628098655BCE98899 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D34248D9FA4C7380727DBA20B32FBE3 /* UnionPaySDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UnionPaySDK.modulemap; sourceTree = "<group>"; };
-		71A8A20763093CF676B9FBD7D0F18CD1 /* UnionPaySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnionPaySDK-prefix.pch"; sourceTree = "<group>"; };
-		7D830BB3A88999C960D0FE42843EB19A /* UnionPaySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnionPaySDK.xcconfig; sourceTree = "<group>"; };
+		5D1C251DFB2D3B0E60259BE56A85C5BA /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		6361979267EDE0860632095FC6EA4D87 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		6A6B2FD676916B15A75E947D88FFF593 /* UnPaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnPaySDK.h; path = UnionPaySDK/Classes/UnPaySDK.h; sourceTree = "<group>"; };
+		72C208217BB6EAB64559C0AC437E799C /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		7AD7A9F5902061F94EEC77455DF6D75F /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		85A6BFBC30954A8E1E1BF19C69C21169 /* Pods-UnionPaySDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnionPaySDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		8B111A72E572F236A399CC7F2E7D3E85 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		8BB83D285609406FF7D61CCE7B25ACCB /* Pods-UnionPaySDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnionPaySDK_Tests.modulemap"; sourceTree = "<group>"; };
-		8E968DCFBBD7E4D8D352056F59712C93 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = UnionPaySDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		904CD96EC121B3E04134288B254E0D86 /* Pods-UnionPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnionPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940F9DBBD5FB7E51683C5858A06D1B91 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		96E1C41E371E74DEDACB8EF993AC6FEB /* Pods-UnionPaySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnionPaySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		98FF788A7683AC67878F78D37F57D41B /* libPaymentControl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaymentControl.a; path = UnionPaySDK/Frameworks/libPaymentControl.a; sourceTree = "<group>"; };
 		9933021E3289186B1949C72CCB2873CE /* Pods-UnionPaySDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnionPaySDK_Example-resources.sh"; sourceTree = "<group>"; };
-		9F6F5F9A94F261C73B335E2D076E187B /* UnionPaySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnionPaySDK-umbrella.h"; sourceTree = "<group>"; };
-		A417FF1296699B5F765A577791FB411E /* UnionPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = UnionPaySDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B2E64296E25087ADABC44B10A674B8FE /* Pods_UnionPaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnionPaySDK_Tests.framework; path = "Pods-UnionPaySDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBDA5390F50467C768E5CE7596E12673 /* UnionPaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UnionPaySDK.framework; path = UnionPaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C946C5DDA6616D89E5BFEF5E36FE8F2 /* Pods_UnionPaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnionPaySDK_Example.framework; path = "Pods-UnionPaySDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D82029FB8774862A89BC6CD31A855F2 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		9E870AF342AEDAF22168B234B1AA73CC /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB33A30129B406EB1BD224B6B630B80 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		A64716173FC0305057230E14CDCC7A77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		AB81F5B5A19D6F63D51E00BB9E746058 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		ACFA5C092B8DD591CA30AA394993ABEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9FDBCCB266ACFED93E55656FD8A014C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		BB00ADDE9C30E36EB99FA89E831E4590 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		BE62D258251F0E3CC57836C93584D335 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		BF1D89BEED3766388A77B2FCB9912393 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
 		C34D06E7203B30C56110276A5DC140A0 /* Pods-UnionPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnionPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C90CE9B626C1720C9ADB8FF999E47D68 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		C981116C7B3C73AA73246E5DDFC7D154 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		CC18ED6BD8558D5E0970879CD6A9291E /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		CC88013A13A80BA08140FC1D0FC17CAD /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CFB2918FE96D6AE88B6CA1AB13D6E730 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		D2F00E33B5224A2ABFD1744688638A40 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		D311CADC435335C6FA8324BE51061E1E /* Pods-UnionPaySDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnionPaySDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D5DF639B9A84C4CF9A389F0CDE7BAD7C /* Pods-UnionPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnionPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D5E9CBCE5E4D8713E454C38B818B6765 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		D6BFBB3C34F05C05D842D7B34C0549D0 /* Pods-UnionPaySDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnionPaySDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E1C8AE42D5A69E862E48EC78FF350078 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		E5CE85E1EB18AE94164507FF5D433CE6 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		E79F20FA67EF326AC8DE380E6118EBF4 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		E942E1B6F6ACA90354CA95FCFD04065C /* Pods-UnionPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnionPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EC8A7C0B6179467051ED95E59DB2AF9F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		EEE364DF13C354A6C58F83AA9A3975F4 /* Pods-UnionPaySDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnionPaySDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EFAA85CB36BACB829DE2B94697A933EB /* UnionPaySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UnionPaySDK-dummy.m"; sourceTree = "<group>"; };
+		F1423F692F2541CFE55253BC467F0025 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		F3DC6273A2B698F8F404C4870865C358 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F3E37FBCDAA6DB2D893A62A941211784 /* Pods-UnionPaySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnionPaySDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FA1957065CF631539D75FAAA40F5C755 /* Pods-UnionPaySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnionPaySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD9A6999F5026E63EC69D658CC110903 /* Pods_UnionPaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnionPaySDK_Example.framework; path = "Pods-UnionPaySDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF9AB0D2DE5398A86009837A2760BAD /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		31F39C5AE3ED0C851B6D0CBB0A154463 /* Frameworks */ = {
+		6DE9B3A8689C804A43D970F1265675A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1249FF42B6959F2A2DE4B362A19FD52 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD2261AF87C2FEB71F3A3B38C51368A5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				294ED9A7DD14A69CBB44AFC81D7DB329 /* Foundation.framework in Frameworks */,
+				78AC6714960C42CC866222B6D956EDF6 /* CoreGraphics.framework in Frameworks */,
+				09EC74E4AFC1D5951D1F80094D06969A /* Foundation.framework in Frameworks */,
+				89637BFFD180A1E05F04DAF0CF4A6540 /* MobileCoreServices.framework in Frameworks */,
+				6478B0091202F9429D2A61E30BEDA571 /* Security.framework in Frameworks */,
+				81ABD96C8FA6FF28CFB2A3A78A6EA560 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,32 +165,103 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0A2E16E4273F84BB948853E0543FDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E317A1855681A493885D66EE1594F05B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0483F793BE75078A40CE7360347DA0B5 /* Support Files */ = {
+		0A60ECF3F4E8D3031BA678BF90A20EEA /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				694E1554D6167C9628098655BCE98899 /* Info.plist */,
-				6D34248D9FA4C7380727DBA20B32FBE3 /* UnionPaySDK.modulemap */,
-				7D830BB3A88999C960D0FE42843EB19A /* UnionPaySDK.xcconfig */,
-				EFAA85CB36BACB829DE2B94697A933EB /* UnionPaySDK-dummy.m */,
-				71A8A20763093CF676B9FBD7D0F18CD1 /* UnionPaySDK-prefix.pch */,
-				9F6F5F9A94F261C73B335E2D076E187B /* UnionPaySDK-umbrella.h */,
+				6361979267EDE0860632095FC6EA4D87 /* AFAutoPurgingImageCache.h */,
+				1174ABA877619CC640989D6AC9A07DF1 /* AFAutoPurgingImageCache.m */,
+				CC18ED6BD8558D5E0970879CD6A9291E /* AFImageDownloader.h */,
+				2658E99DDD8EA7B96318F002C7B157B0 /* AFImageDownloader.m */,
+				9D82029FB8774862A89BC6CD31A855F2 /* AFNetworkActivityIndicatorManager.h */,
+				443C446A800F6280C03E64AF14170EC0 /* AFNetworkActivityIndicatorManager.m */,
+				0AF376080E12057AC937F6E1F0D7CB5D /* UIActivityIndicatorView+AFNetworking.h */,
+				BE62D258251F0E3CC57836C93584D335 /* UIActivityIndicatorView+AFNetworking.m */,
+				5D1C251DFB2D3B0E60259BE56A85C5BA /* UIButton+AFNetworking.h */,
+				E5CE85E1EB18AE94164507FF5D433CE6 /* UIButton+AFNetworking.m */,
+				AB81F5B5A19D6F63D51E00BB9E746058 /* UIImage+AFNetworking.h */,
+				17FCADC02A41266A8F7ECA471386ABB3 /* UIImageView+AFNetworking.h */,
+				2A23D5B238032195CA6F925D556B9F96 /* UIImageView+AFNetworking.m */,
+				F1423F692F2541CFE55253BC467F0025 /* UIKit+AFNetworking.h */,
+				7AD7A9F5902061F94EEC77455DF6D75F /* UIProgressView+AFNetworking.h */,
+				0EF0F7569C1C4BFC3EF2C9DA3D50CC0B /* UIProgressView+AFNetworking.m */,
+				C90CE9B626C1720C9ADB8FF999E47D68 /* UIRefreshControl+AFNetworking.h */,
+				940F9DBBD5FB7E51683C5858A06D1B91 /* UIRefreshControl+AFNetworking.m */,
+				9FB33A30129B406EB1BD224B6B630B80 /* UIWebView+AFNetworking.h */,
+				E79F20FA67EF326AC8DE380E6118EBF4 /* UIWebView+AFNetworking.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/UnionPaySDK";
+			name = UIKit;
 			sourceTree = "<group>";
 		};
-		27BC8DABD66CF02B47C73D805DBEEDCF /* UnionPaySDK */ = {
+		13965F8687FD7A91F311216D63A437A5 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				8E968DCFBBD7E4D8D352056F59712C93 /* ReplaceMe.m */,
-				E3640830BE315B26C64A0C22598FBEEA /* Pod */,
-				0483F793BE75078A40CE7360347DA0B5 /* Support Files */,
+				353BE42A5F94DADECC35B1DBDA6A1231 /* AFNetworkReachabilityManager.h */,
+				1AB3C1AE13FE37CFF6F471AF2B1E701D /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB79318D3E8AF2183319FF8098C5AE5E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		267418CCDC4D7B27958F2DADFE77A910 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3681636443AFD77C7903FB22A814FF89 /* UnionPaySDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		297CA8023A4FD0BD9EE1CA68BE9526F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C981116C7B3C73AA73246E5DDFC7D154 /* AFNetworking.modulemap */,
+				14D08F7F28CEDCEF2AFC8BBDB71F26FB /* AFNetworking.xcconfig */,
+				8B111A72E572F236A399CC7F2E7D3E85 /* AFNetworking-dummy.m */,
+				D5E9CBCE5E4D8713E454C38B818B6765 /* AFNetworking-prefix.pch */,
+				BF1D89BEED3766388A77B2FCB9912393 /* AFNetworking-umbrella.h */,
+				ACFA5C092B8DD591CA30AA394993ABEE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		3681636443AFD77C7903FB22A814FF89 /* UnionPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				6A6B2FD676916B15A75E947D88FFF593 /* UnPaySDK.h */,
+				2FD6951C3B39398156CC074133DC9ABB /* UPPaymentControl.h */,
+				F1DF1B4B873B24CDFAF11005F5D9F5C8 /* Frameworks */,
+				BD2E9678F9BB01BE7A61196AA428C43A /* Pod */,
 			);
 			name = UnionPaySDK;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		3747EFE717D9C272A209969F8D8CEB6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E870AF342AEDAF22168B234B1AA73CC /* AFNetworking.framework */,
+				9C946C5DDA6616D89E5BFEF5E36FE8F2 /* Pods_UnionPaySDK_Example.framework */,
+				3307E5B110FC9196B319C2604A238EF1 /* Pods_UnionPaySDK_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		45439678D2B35B58564DDD46AF230348 /* Pods-UnionPaySDK_Example */ = {
@@ -136,6 +280,14 @@
 			);
 			name = "Pods-UnionPaySDK_Example";
 			path = "Target Support Files/Pods-UnionPaySDK_Example";
+			sourceTree = "<group>";
+		};
+		641BDD347DE7B8BB81D6CA5727C6EC5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0BFE09BCA49DD2E63F4E0637DD7991D /* AFNetworking */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7C3083CAC64B133A9C0BA3FFDBA01911 /* Pods-UnionPaySDK_Tests */ = {
@@ -160,11 +312,23 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D4AFCB8EB2B93CD92B935AE89E614A25 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				FEA5EB179B9DA45D6E365E3E13E748B6 /* Products */,
+				267418CCDC4D7B27958F2DADFE77A910 /* Development Pods */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				641BDD347DE7B8BB81D6CA5727C6EC5A /* Pods */,
+				3747EFE717D9C272A209969F8D8CEB6C /* Products */,
 				9B852CEC5D9DD6B984493814C9C6CAD7 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		86CCD87478E929509958BE9B86F7685E /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				05BFBAF94DDF04E8BDBF6323835FB9BC /* AFURLRequestSerialization.h */,
+				FAF9AB0D2DE5398A86009837A2760BAD /* AFURLRequestSerialization.m */,
+				CFB2918FE96D6AE88B6CA1AB13D6E730 /* AFURLResponseSerialization.h */,
+				2A821F310F9CBCED06C1D6DEC3103B24 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
 			sourceTree = "<group>";
 		};
 		9B852CEC5D9DD6B984493814C9C6CAD7 /* Targets Support Files */ = {
@@ -176,58 +340,99 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		BAA7C8FD05AEAB93C732F63AC9D55B84 /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				E1C8AE42D5A69E862E48EC78FF350078 /* AFCompatibilityMacros.h */,
+				09BDA8426E671B3F1385057205E67201 /* AFHTTPSessionManager.h */,
+				CC88013A13A80BA08140FC1D0FC17CAD /* AFHTTPSessionManager.m */,
+				D2F00E33B5224A2ABFD1744688638A40 /* AFURLSessionManager.h */,
+				72C208217BB6EAB64559C0AC437E799C /* AFURLSessionManager.m */,
 			);
-			name = Frameworks;
+			name = NSURLSession;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		BD2E9678F9BB01BE7A61196AA428C43A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		D4AFCB8EB2B93CD92B935AE89E614A25 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				27BC8DABD66CF02B47C73D805DBEEDCF /* UnionPaySDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E3640830BE315B26C64A0C22598FBEEA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6915523D4D84317540A11C5D42EAF0E5 /* LICENSE */,
-				008999689D2115C81948A464A4AD23C3 /* README.md */,
-				A417FF1296699B5F765A577791FB411E /* UnionPaySDK.podspec */,
+				F3DC6273A2B698F8F404C4870865C358 /* LICENSE */,
+				5074C02D11492001E234DA3F9F7FDC21 /* README.md */,
+				151E52665D69818985E4A016830BD513 /* UnionPaySDK.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		FEA5EB179B9DA45D6E365E3E13E748B6 /* Products */ = {
+		CB79318D3E8AF2183319FF8098C5AE5E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				FD9A6999F5026E63EC69D658CC110903 /* Pods_UnionPaySDK_Example.framework */,
-				B2E64296E25087ADABC44B10A674B8FE /* Pods_UnionPaySDK_Tests.framework */,
-				BBDA5390F50467C768E5CE7596E12673 /* UnionPaySDK.framework */,
+				A64716173FC0305057230E14CDCC7A77 /* CoreGraphics.framework */,
+				F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */,
+				B9FDBCCB266ACFED93E55656FD8A014C /* MobileCoreServices.framework */,
+				12A9374C39A6EFA90AD3F2E64799ECC5 /* Security.framework */,
+				EC8A7C0B6179467051ED95E59DB2AF9F /* SystemConfiguration.framework */,
 			);
-			name = Products;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F0BFE09BCA49DD2E63F4E0637DD7991D /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				0929494D86649284B6A56EAB3F91B303 /* AFNetworking.h */,
+				BAA7C8FD05AEAB93C732F63AC9D55B84 /* NSURLSession */,
+				13965F8687FD7A91F311216D63A437A5 /* Reachability */,
+				FDD76C32F8844B0A4F72AD3FC063818F /* Security */,
+				86CCD87478E929509958BE9B86F7685E /* Serialization */,
+				297CA8023A4FD0BD9EE1CA68BE9526F7 /* Support Files */,
+				0A60ECF3F4E8D3031BA678BF90A20EEA /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		F1DF1B4B873B24CDFAF11005F5D9F5C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98FF788A7683AC67878F78D37F57D41B /* libPaymentControl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDD76C32F8844B0A4F72AD3FC063818F /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				BB00ADDE9C30E36EB99FA89E831E4590 /* AFSecurityPolicy.h */,
+				559947ACFC2291BE83F8DEC005B7101D /* AFSecurityPolicy.m */,
+			);
+			name = Security;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1CDBFA61F79028701450D55DB94B86F1 /* Headers */ = {
+		437E0B8BDA100834FD20877E5FCDC59D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5FA96FDC5051BED2CA1BA74DCCADAEF /* UnionPaySDK-umbrella.h in Headers */,
+				4AA21F40697CB42D7D219ACEDE4FBFCF /* AFAutoPurgingImageCache.h in Headers */,
+				9898B13B5771AC304E096319E72F8098 /* AFCompatibilityMacros.h in Headers */,
+				B086C8017A694E281B3F30DCCE8FA588 /* AFHTTPSessionManager.h in Headers */,
+				F54879EEAE223E90AC9674197E6B1ADE /* AFImageDownloader.h in Headers */,
+				9AC1064802A4D107353A87F2B4A963B0 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				5BFE1CC79F693B6218B419AE50B2070E /* AFNetworking-umbrella.h in Headers */,
+				3DDB894364CEC991E61B04E9036D6D54 /* AFNetworking.h in Headers */,
+				8D9636C74777C684BDF312EE66F8A585 /* AFNetworkReachabilityManager.h in Headers */,
+				04F3BBE71B24770E40CC66A993AD85D1 /* AFSecurityPolicy.h in Headers */,
+				F26CD9A1DF452688BF3C98BBA9090F92 /* AFURLRequestSerialization.h in Headers */,
+				CA0D37AE5433954573D3E37771CDDBFA /* AFURLResponseSerialization.h in Headers */,
+				C12BAA822391D670C53FF0C2299654AD /* AFURLSessionManager.h in Headers */,
+				AD868043328B2125E27A5DC14D11958F /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				0ACBBA158F4635FAE16AB5456ABADCA4 /* UIButton+AFNetworking.h in Headers */,
+				F1199E40BF416FC1ACA2DDCD7B2E23A1 /* UIImage+AFNetworking.h in Headers */,
+				A5B069CA1170E03891AC5648DE5CF87D /* UIImageView+AFNetworking.h in Headers */,
+				ADD011E9ABBD96D70AAA32A4B9ACBD02 /* UIKit+AFNetworking.h in Headers */,
+				63BA6FBA10304F4828DE97C0FA63ED9D /* UIProgressView+AFNetworking.h in Headers */,
+				86EA527BA1862E06A8E19E0960C66E7E /* UIRefreshControl+AFNetworking.h in Headers */,
+				15F6265FCE0955CDB4967F7306407D67 /* UIWebView+AFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,50 +444,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0329DB9AE6A4403087FDCC34A0B0C93 /* Headers */ = {
+		FFCBBCAC806BDB2CE7370B54FC1DDDE9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24EF17CB8BE1216C850D7C78488AAC86 /* Pods-UnionPaySDK_Example-umbrella.h in Headers */,
+				89660277364201418F678C381A2BC1C2 /* Pods-UnionPaySDK_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		24C3AEB5949284AF35AD9E5D84E307C2 /* UnionPaySDK */ = {
+		662DCCA050DA48E99182031C172E1CE6 /* Pods-UnionPaySDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03067BA8112059D9C8BCE79FE78E6E27 /* Build configuration list for PBXNativeTarget "UnionPaySDK" */;
+			buildConfigurationList = 255ABEF6663612FCDD2418289DE393DC /* Build configuration list for PBXNativeTarget "Pods-UnionPaySDK_Example" */;
 			buildPhases = (
-				341E440EA1F5A2F91373A3E8A2940264 /* Sources */,
-				31F39C5AE3ED0C851B6D0CBB0A154463 /* Frameworks */,
-				1CDBFA61F79028701450D55DB94B86F1 /* Headers */,
+				DAB255FB4822FBE23D9B5CA9B6BC4939 /* Sources */,
+				F0A2E16E4273F84BB948853E0543FDCB /* Frameworks */,
+				FFCBBCAC806BDB2CE7370B54FC1DDDE9 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = UnionPaySDK;
-			productName = UnionPaySDK;
-			productReference = BBDA5390F50467C768E5CE7596E12673 /* UnionPaySDK.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		337F78756BAEF8F5C926CDFBF158C233 /* Pods-UnionPaySDK_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3BC9B1D1DEB17F58DB8FC4E830357ABA /* Build configuration list for PBXNativeTarget "Pods-UnionPaySDK_Example" */;
-			buildPhases = (
-				83FCE6D090C129C6D1033784E3061FE7 /* Sources */,
-				BD2261AF87C2FEB71F3A3B38C51368A5 /* Frameworks */,
-				C0329DB9AE6A4403087FDCC34A0B0C93 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F60CA037365680A946FF3F606411FC03 /* PBXTargetDependency */,
+				9B9621A1B02E3276BBE2E3881F09C0A5 /* PBXTargetDependency */,
 			);
 			name = "Pods-UnionPaySDK_Example";
 			productName = "Pods-UnionPaySDK_Example";
-			productReference = FD9A6999F5026E63EC69D658CC110903 /* Pods_UnionPaySDK_Example.framework */;
+			productReference = 9C946C5DDA6616D89E5BFEF5E36FE8F2 /* Pods_UnionPaySDK_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		73867D4B85B712B4658EF033C3516BF8 /* Pods-UnionPaySDK_Tests */ = {
@@ -299,7 +487,24 @@
 			);
 			name = "Pods-UnionPaySDK_Tests";
 			productName = "Pods-UnionPaySDK_Tests";
-			productReference = B2E64296E25087ADABC44B10A674B8FE /* Pods_UnionPaySDK_Tests.framework */;
+			productReference = 3307E5B110FC9196B319C2604A238EF1 /* Pods_UnionPaySDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4160500DCEA3DA3E93FBA579E88CA0A /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25909703FE8BF472066161C98342A956 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				4CC771DB3008E2E9E454A6212D41A5E9 /* Sources */,
+				6DE9B3A8689C804A43D970F1265675A4 /* Frameworks */,
+				437E0B8BDA100834FD20877E5FCDC59D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 9E870AF342AEDAF22168B234B1AA73CC /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -319,32 +524,38 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FEA5EB179B9DA45D6E365E3E13E748B6 /* Products */;
+			productRefGroup = 3747EFE717D9C272A209969F8D8CEB6C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				337F78756BAEF8F5C926CDFBF158C233 /* Pods-UnionPaySDK_Example */,
+				F4160500DCEA3DA3E93FBA579E88CA0A /* AFNetworking */,
+				662DCCA050DA48E99182031C172E1CE6 /* Pods-UnionPaySDK_Example */,
 				73867D4B85B712B4658EF033C3516BF8 /* Pods-UnionPaySDK_Tests */,
-				24C3AEB5949284AF35AD9E5D84E307C2 /* UnionPaySDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		341E440EA1F5A2F91373A3E8A2940264 /* Sources */ = {
+		4CC771DB3008E2E9E454A6212D41A5E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E60DA4E49D0AD2544CDF7E3972EEED19 /* ReplaceMe.m in Sources */,
-				B8A3003FF22B9ADC6D7613EED439D9A3 /* UnionPaySDK-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83FCE6D090C129C6D1033784E3061FE7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1D1C038DB1B5FB4AD56EC52B721B242 /* Pods-UnionPaySDK_Example-dummy.m in Sources */,
+				7099E4035C06D3116DA2586EFE563C0B /* AFAutoPurgingImageCache.m in Sources */,
+				939EF882233B22D0321A70F6DADED11F /* AFHTTPSessionManager.m in Sources */,
+				B46FE8C00C2CDDE0B4790FFD3DC961A4 /* AFImageDownloader.m in Sources */,
+				EA23726556D213DB485BD1791C7164CF /* AFNetworkActivityIndicatorManager.m in Sources */,
+				4C321BA8844AA4C44D4416CC6948DF2B /* AFNetworking-dummy.m in Sources */,
+				A12A3BC640B690479F345A49C6C48209 /* AFNetworkReachabilityManager.m in Sources */,
+				F30950E63F3D8D6C07FFB50C5971116E /* AFSecurityPolicy.m in Sources */,
+				E5CD5C797956697DDCC98A3EAC7E99E3 /* AFURLRequestSerialization.m in Sources */,
+				3C9E113B7712442B4BCB59AB7EEC2085 /* AFURLResponseSerialization.m in Sources */,
+				4C5DA96F7CAC26975EEEBD7450FF214D /* AFURLSessionManager.m in Sources */,
+				C257BE809D4C4357A8EB7118960E3143 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				8A1EB96C607F92E8AA20676F9A4BC7D9 /* UIButton+AFNetworking.m in Sources */,
+				6AB8F78680B3470391219F11D51A1DE7 /* UIImageView+AFNetworking.m in Sources */,
+				6595C6295B9EBBF40751A376239681FD /* UIProgressView+AFNetworking.m in Sources */,
+				4AA3A9FC9AAD94C226CA975946C9395B /* UIRefreshControl+AFNetworking.m in Sources */,
+				3345805C0D8E8D0726F7E5981DA61A5F /* UIWebView+AFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,14 +567,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DAB255FB4822FBE23D9B5CA9B6BC4939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FEE7989711AFD09208F90BBA273CD1 /* Pods-UnionPaySDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F60CA037365680A946FF3F606411FC03 /* PBXTargetDependency */ = {
+		9B9621A1B02E3276BBE2E3881F09C0A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = UnionPaySDK;
-			target = 24C3AEB5949284AF35AD9E5D84E307C2 /* UnionPaySDK */;
-			targetProxy = 709AD721738AC6349F0A54E86C161EDE /* PBXContainerItemProxy */;
+			name = AFNetworking;
+			target = F4160500DCEA3DA3E93FBA579E88CA0A /* AFNetworking */;
+			targetProxy = 198890DFC4480820537E7D0C214B388C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -401,9 +620,9 @@
 			};
 			name = Debug;
 		};
-		3B6A3FBC107FCCCD69DFBD6EB51DE997 /* Release */ = {
+		62D617A71C4AC90CF257CAA8351EE102 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E942E1B6F6ACA90354CA95FCFD04065C /* Pods-UnionPaySDK_Example.release.xcconfig */;
+			baseConfigurationReference = 904CD96EC121B3E04134288B254E0D86 /* Pods-UnionPaySDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -428,68 +647,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3DE0CEDF20634DC9477A288154168CC1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D830BB3A88999C960D0FE42843EB19A /* UnionPaySDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UnionPaySDK/UnionPaySDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UnionPaySDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UnionPaySDK/UnionPaySDK.modulemap";
-				PRODUCT_MODULE_NAME = UnionPaySDK;
-				PRODUCT_NAME = UnionPaySDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		57B50782EA7BFD3C9725A74B8BE759C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D830BB3A88999C960D0FE42843EB19A /* UnionPaySDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UnionPaySDK/UnionPaySDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UnionPaySDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UnionPaySDK/UnionPaySDK.modulemap";
-				PRODUCT_MODULE_NAME = UnionPaySDK;
-				PRODUCT_NAME = UnionPaySDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -556,6 +713,36 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9DB789882BAFB3FAAAC0CE3010D697E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D08F7F28CEDCEF2AFC8BBDB71F26FB /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -651,9 +838,9 @@
 			};
 			name = Release;
 		};
-		D01C787EC87020741F7035B3B6EA32C9 /* Debug */ = {
+		C20588294E235920F01B4FA91DC4C87D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 904CD96EC121B3E04134288B254E0D86 /* Pods-UnionPaySDK_Example.debug.xcconfig */;
+			baseConfigurationReference = E942E1B6F6ACA90354CA95FCFD04065C /* Pods-UnionPaySDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -679,19 +866,60 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		DF7FA40181E08DC392346D86E3A8405C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D08F7F28CEDCEF2AFC8BBDB71F26FB /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03067BA8112059D9C8BCE79FE78E6E27 /* Build configuration list for PBXNativeTarget "UnionPaySDK" */ = {
+		255ABEF6663612FCDD2418289DE393DC /* Build configuration list for PBXNativeTarget "Pods-UnionPaySDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57B50782EA7BFD3C9725A74B8BE759C7 /* Debug */,
-				3DE0CEDF20634DC9477A288154168CC1 /* Release */,
+				62D617A71C4AC90CF257CAA8351EE102 /* Debug */,
+				C20588294E235920F01B4FA91DC4C87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25909703FE8BF472066161C98342A956 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB789882BAFB3FAAAC0CE3010D697E4 /* Debug */,
+				DF7FA40181E08DC392346D86E3A8405C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -701,15 +929,6 @@
 			buildConfigurations = (
 				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
 				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3BC9B1D1DEB17F58DB8FC4E830357ABA /* Build configuration list for PBXNativeTarget "Pods-UnionPaySDK_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D01C787EC87020741F7035B3B6EA32C9 /* Debug */,
-				3B6A3FBC107FCCCD69DFBD6EB51DE997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
