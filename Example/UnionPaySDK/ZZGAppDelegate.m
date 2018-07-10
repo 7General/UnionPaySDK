@@ -7,6 +7,7 @@
 //
 
 #import "ZZGAppDelegate.h"
+#import <UnPaySDK.h>
 
 @implementation ZZGAppDelegate
 
@@ -41,6 +42,34 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+    
+    /*验签结果
+     ZZG://uppayresult?code=success&data=%7B++%22sign%22+%3A+%22gSnPXewqjVAA3eHhvJ7aMMD2mf%2BYxA5%2FyVwGkdX2mwe4PSs8IiHP5xgupY542pzJYwnUJuLrbDgZdIhHYzcBKkzQAch%2BBvBA6QYPXdNbyiDBCriuWZgLtm%2BRpOX63iLIVPDIfGXZY%2F8g6WPJWl9GnA1ls4Pytf9%2FMZ7Cl1IH1pO623k4deRsvnTnLqhYEtL%2FQ2Z%2FXrQ7sqsOn0cPp6WgxuqdbUh5E0pFSMoLBTGdykLj37E%2FDZ%2Fx2zZaVCEWMVvhZNHUXEKxlC4OY6kA8uARRkGrvi5gvRGmFEmPC4g8d7dUXvpCnuGO2cSgGsERLKSy%2F%2BCo383Yy4GlGOHfGiWiYA%3D%3D%22%2C++%22data%22+%3A+%22pay_result%3Dfail%26tn%3D672561092203132080001%26cert_id%3D69026276696%22%7D
+     */
+    [[UPPaymentControl defaultControl] handlePaymentResult:url completeBlock:^(NSString *code, NSDictionary *data) {
+        if ([code isEqualToString:@"success"]) {
+            if (nil == data) {
+                return;
+            }
+            NSData * singData = [NSJSONSerialization dataWithJSONObject:data options:0 error:nil];
+            NSString * sign = [[NSString alloc] initWithData:singData encoding:NSUTF8StringEncoding];
+            // 拿该证书去商户后台验签
+            if (YES/*验签sign*/) {
+                NSLog(@"//验签成功，展示支付成功提示");
+            }else {
+                NSLog(@"验签失败，交易可能被串改，商户app后台查询结果");
+            }
+        }else if([code isEqualToString:@"fail"]){
+            NSLog(@"交易失败");
+        }else if([code isEqualToString:@"cancle"]){
+            NSLog(@"交易取消");
+        }
+    }];
+    
+    return YES;
 }
 
 @end

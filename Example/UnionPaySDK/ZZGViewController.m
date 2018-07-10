@@ -12,9 +12,9 @@
 
 
 
-#define kMode_Development             @"01"
-#define kURL_TN_Normal                @"http://101.231.204.84:8091/sim/getacptn"
-#define kURL_TN_Configure             @"http://101.231.204.84:8091/sim/app.jsp?user=123456789"
+#define Mode_Development             @"01"
+#define URL_TN_Normal                @"http://101.231.204.84:8091/sim/getacptn"
+
 
 @interface ZZGViewController ()
 @property (nonatomic, strong) NSString * stnNo;
@@ -47,7 +47,7 @@ static dispatch_group_t history_group = nil;
 
 
 - (void) normalunPayClick {
-    NSURL *url = [NSURL URLWithString:kURL_TN_Normal];
+    NSURL *url = [NSURL URLWithString:URL_TN_Normal];
     NSURLSession *session = [NSURLSession sharedSession];
     __weak __typeof(self) weakSelf = self;
     NSURLSessionDataTask *dataTask = [session dataTaskWithURL:url completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
@@ -60,7 +60,7 @@ static dispatch_group_t history_group = nil;
 
 -(void)payMenu:(NSString *)stn {
     pay_dispatch_main_async_safe(^{
-        [[UPPaymentControl defaultControl] startPay:stn fromScheme:@"UPPayDemo" mode:kMode_Development viewController:self];
+        [[UPPaymentControl defaultControl] startPay:stn fromScheme:@"ZZG" mode:Mode_Development viewController:self];
     });
 }
 

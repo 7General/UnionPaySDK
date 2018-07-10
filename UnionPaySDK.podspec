@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
     s.name             = 'UnionPaySDK'
-    s.version          = '0.0.1'
-    s.summary          = 'A short description of UnionPaySDK.'
+    s.version          = '0.0.2'
+    s.summary          = '银联支付SDK'
     
     s.description      = <<-DESC
     TODO: Add long description of the pod here.
