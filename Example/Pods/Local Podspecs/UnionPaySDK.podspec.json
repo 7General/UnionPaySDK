@@ -1,9 +1,9 @@
 {
   "name": "UnionPaySDK",
-  "version": "0.0.1",
-  "summary": "A short description of UnionPaySDK.",
+  "version": "0.0.2",
+  "summary": "银联支付SDK",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wanghuizhou/UnionPaySDK",
+  "homepage": "https://github.com/7General",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "wanghuizhou": "wanghuizhou@guazi.com"
   },
   "source": {
-    "git": "http://git.guazi-corp.com/wuxian-ios/UnionPaySDK.git",
-    "tag": "0.0.1"
+    "git": "https://github.com/7General/UnionPaySDK.git",
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
