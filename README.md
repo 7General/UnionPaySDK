@@ -1,15 +1,23 @@
 # UnionPaySDK
-
-[![CI Status](https://img.shields.io/travis/wanghuizhou21@163.com/UnionPaySDK.svg?style=flat)](https://travis-ci.org/wanghuizhou21@163.com/UnionPaySDK)
-[![Version](https://img.shields.io/cocoapods/v/UnionPaySDK.svg?style=flat)](https://cocoapods.org/pods/UnionPaySDK)
-[![License](https://img.shields.io/cocoapods/l/UnionPaySDK.svg?style=flat)](https://cocoapods.org/pods/UnionPaySDK)
-[![Platform](https://img.shields.io/cocoapods/p/UnionPaySDK.svg?style=flat)](https://cocoapods.org/pods/UnionPaySDK)
-
+[详细链接地址](http://www.xyangcity.com/itxw/1051.html)
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run
+```objc
+-> UnionPaySDK (0.0.2)
+银联支付SDK
+pod 'UnionPaySDK', '~> 0.0.2'
+- Homepage: https://github.com/7General
+- Source:   https://github.com/7General/UnionPaySDK.git
+- Versions: 0.0.2, 0.0.1 [master repo]
+```
+
+ from the Example directory first.
+
 
 ## Requirements
+引入头文件
+'#import "UnPaySDK.h"'
 
 ## Installation
 
@@ -22,8 +30,13 @@ pod 'UnionPaySDK'
 
 ## Author
 
-wanghuizhou21@163.com, wanghuizhou@guazi.com
+有些地方说的不到位，还请各位看官指正。。。
 
-## License
+*   如有问题可添加QQ群:234812704
+*   欢迎各位一块学习，提高逼格！
+*   也可以添加洲洲哥的微信公众号
 
-UnionPaySDK is available under the MIT license. See the LICENSE file for more info.
+**可以来微信公众号（洲洲哥）后台给我们留言。 快来扫码关注我们吧！**
+
+![公众号二维码](http://upload-images.jianshu.io/upload_images/1416781-87057fd7a00f66ba.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
