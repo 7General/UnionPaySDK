@@ -1,36 +1,15 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
-  - AFNetworking/NSURLSession (3.2.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.1)
-  - AFNetworking/Security (3.2.1)
-  - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
-    - AFNetworking/NSURLSession
-  - UnionPaySDK (0.0.1):
-    - AFNetworking (~> 3.2.1)
+  - UnionPaySDK (0.0.1)
 
 DEPENDENCIES:
   - UnionPaySDK (from `../`)
-
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - AFNetworking
 
 EXTERNAL SOURCES:
   UnionPaySDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  UnionPaySDK: 6c69b19162bbcd35683c61455ddf7d364f44f8e9
+  UnionPaySDK: 1b9b809c81b5a11d9d1e08c7c405cafaae6bc689
 
 PODFILE CHECKSUM: 8bccfaa797727373635fcbed95e27332add67246
 

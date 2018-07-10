@@ -30,10 +30,5 @@
     "OTHER_LDFLAGS": [
       "-lc++"
     ]
-  },
-  "dependencies": {
-    "AFNetworking": [
-      "~> 3.2.1"
-    ]
   }
 }

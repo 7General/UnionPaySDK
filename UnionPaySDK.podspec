@@ -28,7 +28,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'UnionPaySDK/Classes/**/*'
   s.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lc++']}
-  
-  
-   s.dependency 'AFNetworking', '~> 3.2.1'
+
 end
