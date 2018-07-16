@@ -1,6 +1,6 @@
 {
   "name": "UnionPaySDK",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "summary": "银联支付SDK",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/7General",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/7General/UnionPaySDK.git",
-    "tag": "0.0.2"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "8.0"
