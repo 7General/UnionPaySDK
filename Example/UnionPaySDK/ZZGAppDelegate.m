@@ -44,10 +44,12 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+
+
 -(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
-    
-    /*验签结果
-     ZZG://uppayresult?code=success&data=%7B++%22sign%22+%3A+%22gSnPXewqjVAA3eHhvJ7aMMD2mf%2BYxA5%2FyVwGkdX2mwe4PSs8IiHP5xgupY542pzJYwnUJuLrbDgZdIhHYzcBKkzQAch%2BBvBA6QYPXdNbyiDBCriuWZgLtm%2BRpOX63iLIVPDIfGXZY%2F8g6WPJWl9GnA1ls4Pytf9%2FMZ7Cl1IH1pO623k4deRsvnTnLqhYEtL%2FQ2Z%2FXrQ7sqsOn0cPp6WgxuqdbUh5E0pFSMoLBTGdykLj37E%2FDZ%2Fx2zZaVCEWMVvhZNHUXEKxlC4OY6kA8uARRkGrvi5gvRGmFEmPC4g8d7dUXvpCnuGO2cSgGsERLKSy%2F%2BCo383Yy4GlGOHfGiWiYA%3D%3D%22%2C++%22data%22+%3A+%22pay_result%3Dfail%26tn%3D672561092203132080001%26cert_id%3D69026276696%22%7D
+    /*
+     url.host:uppayresult
+     ZZG://uppayresult?code=success&data=%7B++%22sign%22+%3A+%22FUUDLw%2BvzvKWiZ4GTEjGnlFnh3mZ0OO2ulNvQgBf%2Bmie4PZ8pNnHXoVL5c97QDwVbbhlCLLA7Z61htg63HftQlkZzzXZYI9inKp0ZJ12YQyJro39hudxIyy9Qm%2Fs%2BqCZMiwd30%2FQ%2F3NPONoEGaaZd4LFYf4vo7ShqD%2FUg829conbux0lTH4H1EE3kPz%2FHjPTzw8skQW5AlEtHHSOeA0FIXZrht%2FYJ49cOJVOtdRKo4qVTlHA48CxZTIjp9Zt%2BWVEGEtNkzGA4R%2F5Mdu8oak%2FaQlM8nPNkfmPM3HH%2BSh3J074jefsUC49hI6VX92IP%2FEAaR9gq%2FjgT9w3sNDO8G9Z%2BA%3D%3D%22%2C++%22data%22+%3A+%22pay_result%3Dfail%26tn%3D505622694018222474600%26cert_id%3D69026276696%22%7D
      */
     [[UPPaymentControl defaultControl] handlePaymentResult:url completeBlock:^(NSString *code, NSDictionary *data) {
         if ([code isEqualToString:@"success"]) {

@@ -11,7 +11,7 @@
 
 
 
-
+// * @param mode 支付环境"00"代表接入生产环境(正式版本需要);"01"代表接入开发测试环境
 #define Mode_Development             @"01"
 #define URL_TN_Normal                @"http://101.231.204.84:8091/sim/getacptn"
 
