@@ -1,5 +1,5 @@
 PODS:
-  - UnionPaySDK (0.0.3)
+  - UnionPaySDK (0.0.2)
 
 DEPENDENCIES:
   - UnionPaySDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UnionPaySDK: 5ec735f0a240959d8504444ef30764bb095ae113
+  UnionPaySDK: 4ebbd3b913c64d2c3ab0a6bb8666bcde7de52cab
 
 PODFILE CHECKSUM: 8bccfaa797727373635fcbed95e27332add67246
 
